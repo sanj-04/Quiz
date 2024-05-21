@@ -1,0 +1,51 @@
+ 
+    p {
+    font-size: 30px;
+    }
+        
+    .content {
+    margin-top: 0px;
+    width: 100%;
+    position: absolute;
+    } 
+    
+    p {
+    font-size: 50px;
+    color:black;
+    }
+    
+    a {
+    text-decoration: none;
+    color: black;
+    }
+    
+    body {
+        background-image: url("https://images.nintendolife.com/c8dd27c89e64a/switch-sailforth-02.large.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+    margin-top: 0px;
+    color:black;
+    font-size:60px;
+    }
+    h2{
+    color:black;
+    
+    }
+
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    
+    button {
+        border-radius: 50px;
+        background-color: rgb(231, 166, 15);
+        height: 50px;
+        width: 100px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin: 10px 0px 0px 10px;
+        }

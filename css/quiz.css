@@ -5,7 +5,9 @@ padding: 0px;
 }
 
 .body {
-background-image: url(/images/game_background_21-o.avif);
+/* background: rgb(55,172,218);
+background: linear-gradient(0deg, rgba(55,172,218,1) 0%, rgba(6,30,243,1) 100%); */
+background-image: url("https://th.bing.com/th/id/R.f6f92d47d8c73fde1fd7fedf3f9388bb?rik=sWbYWzhrAeMQ0Q&riu=http%3a%2f%2fyarmedia.ir%2fwp-content%2fuploads%2f2019%2f03%2f02_mushrooms-900x622.jpg&ehk=Cyc3mbI3IFQkYG4yzDfn7MhhLN453T6u1rHEUJDzCLY%3d&risl=&pid=ImgRaw&r=0");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -21,15 +23,6 @@ margin: 5px;
 
 li {
 list-style: none;
-}
-
-#bg {
-position: fixed;
-right: 0;
-bottom: 0;
-width: 100%;
-height: 100%;
-background-image: url(bg.jpg);
 }
 
 .mainboard {
