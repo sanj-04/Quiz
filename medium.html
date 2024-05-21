@@ -1,0 +1,123 @@
+//Medium
+<html>
+
+<head>
+<link href="quiz.css" rel="stylesheet">
+<script>
+function store() {
+var n =
+document.querySelector("input[name=r1]:checked").valu
+e;
+localStorage.setItem("q1", n);
+var n =
+document.querySelector("input[name=r2]:checked").valu
+e;
+localStorage.setItem("q2", n);
+var n =
+
+document.querySelector("input[name=r3]:checked").valu
+e;
+localStorage.setItem("q3", n);
+var n =
+document.querySelector("input[name=r4]:checked").valu
+e;
+localStorage.setItem("q4", n);
+var n =
+document.querySelector("input[name=r5]:checked").valu
+e;
+localStorage.setItem("q5", n);
+}
+</script>
+</head>
+
+<body class="body">
+<!-- <img id=bg src="bg.jpg"> -->
+<div class="mainboard">
+<p style="padding:20px;"></p>
+<div class="subboard">
+<li>1.How do you display hyperlinks withour an
+underline?</li>
+<ul>
+<li><input type=radio id=q1
+value=a{decoration:nounderline}
+name=r1>A.a{decoration:no underline}
+
+</li>
+<li><input type=radio id=q1
+value=a{textdecoration:none}
+name=r1>B.a{textdecoration:none}</li>
+<li><input type=radio id=q1
+value=CascadingStyleSheets name=r1>C.
+a{textdecoration:no underline}
+</li>
+</ul>
+<li>2. What is the correct CSS syntax for making all
+element bold?</li>
+<ul>
+<li><input type=radio id=q2 value=p{font:bold}
+name=r2>A.p{font:bold} </li>
+
+<li><input type=radio id=q2 value=p{text-
+size:bold} name=r2>B.p {text-size:bold}</li>
+
+<li><input type=radio id=q2 value=p{font-
+weight:bold} name=r2>C. p{font-weight:bold}</li>
+
+</ul>
+<li>3.What is the CSS Property Equivalent for the
+attribute? </li>
+<ul>
+
+<li><input type=radio id=q3 value=text-
+decoration:no-text name=r3>A. css</li>
+
+<li><input type=radio id=q3 value=text-
+decoration:reappear name=r3>B. text/style</li>
+
+<li><input type=radio id=q3 value=text-
+decoration:blink name=r3>C.text-decoration:blink</li>
+
+</ul>
+<li>4. In CSS, “em”, “%” and “pt” are</li>
+<ul>
+<li><input type=radio id=q4
+value=Relativemeasureunits name=r4>A. Relative
+measure units</li>
+<li><input type=radio id=q4
+value=Measureunits,but“%”isrelativeand“em”and“pt”are
+absolute
+name=r4>B.Measure units, but “%” is
+relative and “em” and “pt” are absolute </li>
+<li><input type=radio id=q4
+value=Measureunits,but“em”and“%”arerelative,and“pt”i
+sabsolute name=r4>C.
+Measure units, but “em” and “%” are relative,
+and “pt” is absolute</li>
+</ul>
+<li>5.How do you make each word in a text start
+with a capital letter?</li>
+<ul>
+
+<li><input type=radio id=q5 value=text-
+transform:capitalize name=r5>A.text-
+transform:capitalize</li>
+
+<li><input type=radio id=q5 value=text-
+
+transform:uppercase name=r5>B.text-
+transform:uppercase</li>
+
+<li><input type=radio id=q5 value=text-
+transform:cptl name=r5>C.text-transform:cptl </li>
+
+</ul>
+<button type="submit" value="submit"
+onclick="store()"><a
+href="result3.html"><b>SUBMIT</b></a></button>
+<button><a
+href="level.html"><b>BACK</b></a></button>
+
+</div>
+</div>
+</body>
+</html>

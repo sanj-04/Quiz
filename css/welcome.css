@@ -1,0 +1,61 @@
+.content {
+position: fixed;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
+}
+
+#content {
+position: fixed;
+bottom: 0;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+
+width: 100%;
+padding: 20px;
+}
+
+body {
+text-align: center;
+background-image: url("https://wallpapercave.com/wp/XzKNOTd.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.head1 {
+color: rgb(1, 255, 1);
+font-size: 40px;
+}
+
+#g {
+color: pink;
+font-size: 20px;
+}
+
+button {
+border-radius: 50px;
+background-color: grey;
+height: 50px;
+width: 100px;
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+#emoji {
+position: fixed;
+bottom: 150px;
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
+}
+
+#hid {
+display: none;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
